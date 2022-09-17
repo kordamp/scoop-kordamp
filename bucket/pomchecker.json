@@ -1,11 +1,11 @@
 {
   "homepage": "https://kordamp.org/pomchecker",
   "description": "Checks POM files may be uploaded to Maven Central",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "license": "Apache-2.0",
-  "url": "https://github.com/kordamp/pomchecker/releases/download/v1.2.0/pomchecker-1.2.0.zip",
-  "hash": "sha256:69e5be5389bb3094431934e2bb7fa88715985ab3cce5ec5262e7b0f557fa8e5d",
-  "extract_dir": "pomchecker-1.2.0",
+  "url": "https://github.com/kordamp/pomchecker/releases/download/v1.3.0/pomchecker-1.3.0.zip",
+  "hash": "sha256:9be808661c8c2a54bd2875e9d4d870d30c7e9a94dd3daccd0aadb4ca14912ae0",
+  "extract_dir": "pomchecker-1.3.0",
   "env_add_path": "bin",
   "suggest": {
     "JDK": [
