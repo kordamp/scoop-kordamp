@@ -1,0 +1,27 @@
+{
+  "homepage": "https://github.com/kordamp/jarviz",
+  "description": "JAR file analyzer",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "url": "https://github.com/kordamp/jarviz/releases/download/v0.1.0/jarviz-0.1.0.zip",
+  "hash": "sha256:71009d1cbf58529503fbd3d98145824a24679d25aeb3e2e8cafc5e48bb2d6b04",
+  "extract_dir": "jarviz-0.1.0",
+  "env_add_path": "bin",
+  "suggest": {
+    "JDK": [
+      "java/oraclejdk",
+      "java/openjdk"
+    ]
+  },
+  "checkver": {
+    "url": "https://github.com/kordamp/jarviz/releases/latest",
+    "re": "v([\\d.]+).zip"
+  },
+  "autoupdate": {
+    "url": "https://github.com/kordamp/jarviz/releases/download/v$version/jarviz-$version.zip",
+    "extract_dir": "jarviz-$version",
+    "hash": {
+      "url": "$url.sha256"
+    }
+  }
+}
