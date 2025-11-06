@@ -4,7 +4,7 @@
     "homepage": "https://github.com/kordamp/gm",
     "license": "Apache-2.0",
     "url": "https://github.com/kordamp/gm/releases/download/v0.14.0/gm-0.14.0-windows-amd64.zip",
-    "hash": "sha256:84464db670db4b0024370f7ac4cd76ec91a1b26bb4a9d6ec8e23961d069966d1",
+    "hash": "sha256:27193bd78597933555428f54929c5ce2f788e3737f5cd5617f57605dadd4f361",
     "extract_dir": "gm-0.14.0-windows-amd64",
     "env_add_path": "bin",
     "checkver": {
