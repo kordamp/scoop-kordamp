@@ -1,0 +1,21 @@
+{
+    "version": "0.14.0",
+    "description": "Gum is a Gradle/Maven/Ant/Bach/JBang wrapper written in Go",
+    "homepage": "https://github.com/kordamp/gm",
+    "license": "Apache-2.0",
+    "url": "https://github.com/kordamp/gm/releases/download/v0.14.0/gm-0.14.0-windows-amd64.zip",
+    "hash": "sha256:84464db670db4b0024370f7ac4cd76ec91a1b26bb4a9d6ec8e23961d069966d1",
+    "extract_dir": "gm-0.14.0-windows-amd64",
+    "env_add_path": "bin",
+    "checkver": {
+        "url": "https://github.com/kordamp/gm/releases/latest",
+        "re": "v([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/kordamp/gm/releases/download/v$version/gm-$version-windows-amd64.zip",
+        "extract_dir": "gm-$version-windows-amd64",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
